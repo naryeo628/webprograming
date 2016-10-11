@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head><title>局聪皋捞记</title>
+<style>
+p {
+	display : inline-block;
+	padding : 5px;
+	color : white;
+	background : OliveDrab;
+}
+
+@keyframes fontLenz {
+  0% { transform : rotate(0deg);}
+  50% { transform : rotate(77deg);}
+  100% { transform : rotate(360deg);}
+}
+p#kwang {
+	display : inline-block;
+	animation-name : fontLenz;
+	animation-duration : 1s;
+	animation-iteration-count : infinite;
+}
+span {
+	display : inline-block;
+	animation-name : fontLenz;
+	animation-duration : 0.5s;
+	animation-iteration-count : infinite;
+	transition: font-size 5s;
+}
+p#kwang:hover {
+	font-size : 500%;
+}
+
+</style></head>
+<body>
+<p id="kwang">参!<span>参!!</span>参!!!</p>
+</body>
+</html>
