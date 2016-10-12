@@ -1,0 +1,25 @@
+3.
+p {
+	border : 2px solid yellowgreen;
+	color : blue; background : aliceblue;
+}
+...
+<div>
+<p style="display : inline-block; height:100px; width:100px;">
+학생 여러분을 정말로 사랑합니다. 특히 1학년을.</p>
+<p style="display : inline-block; height:100px; width:100px;">
+물론 3, 4 학년 학생 여러분도 무척 사랑하지요!</p>
+</div>
+
+
+10.
+@keyframes trans {
+	33% { transform : rotate(180deg); }
+	66% { transform : skew(0deg,-20deg); }
+	100% { transform : rotate(90deg) scale(1,3); }
+}
+
+img:hover {
+	animation-duration : 3s;
+	animation-name : trans;
+}

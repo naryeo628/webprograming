@@ -1,0 +1,49 @@
+body {
+        width: 100%;
+}
+div#tot {
+	width: 100%;
+	margin: 0 auto;
+}
+nav, section, aside {
+	float: left;
+        min-height: 300px;
+
+}
+header, footer, nav, section {
+        margin: 0px;
+        padding: 0px;
+}
+header {
+	background-color : yellow;
+	position : fixed;
+	top : 0;
+	left : 0;
+	height : 20%;
+}
+nav,section {
+	position : fixed;
+	float : left;
+	top : 20%;
+	bottom : 7%;
+}
+nav {
+	left : 0;
+	width : 20%;
+	background-color : orange;
+}
+section {
+	overflow : scroll;
+	background-color : green;
+	right : 0;
+	width : 80%;
+}
+footer {
+	position : fixed;
+	left : 0; bottom : 0;
+	width : 100%;
+	padding-top : 10px;
+	padding-bottom : 10px;
+	background-color : violet;
+	height : 7%;
+}
